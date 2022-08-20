@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect"href="https://fonts.googleapis.com">
+    <link rel="preconnect"href="https://fonts.gstatic.com"crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Square+Peg&display=swap"rel="stylesheet">
+    <title>Random Cats</title>
+</head>
+<body>
+    <h1>CatsApp</h1>
+    <p>Enjoy the beautiful cats that appear below</p>
+
+    <div>
+        <h2>Random Cats</h2>
+    <section id="randomCats">
+
+        
+        <article>
+            <img  id="img1" alt="random photo cat">
+            <button id="saveButton1">Save cat in favorites</button>
+        </article>
+        <article>
+            <img  id="img2" alt="random photo cat">
+            <button id="saveButton2">Save cat in favorites</button>
+        </article>
+        
+    </section>
+    <div>
+        <button id="rechargeButton" type="button">If you want to see more cats, press me</button>
+    </div>
+    
+</div>
+
+<section id="uploadingCat">
+        <span id="randomCatsError"></span>
+        <h2>Upload a photo of your cat to favorites</h2>
+
+        <form id="uploadingForm">
+            <label for="file" class="custom-file-upload">Select the photo<i class="fa-solid fa-camera"></i></label>
+            <input id="file" type="file" name="file" onchange="previewImage()">
+            <img id="preview" />
+            <button id="uploadPhoto" type="button" >Click here for upload photo<i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+    </section>
+
+    
+        <section id="favoritesCats">
+            <h2>Favorites Cats</h2>
+            
+        </section>
+    
+        <p id="myName">App made by Luis Miguel Rojas Franco</p>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
