@@ -1,0 +1,146 @@
+body {
+    font-family: 'Square Peg';
+    background-color: #12222b;
+    color:#fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    font-size:5em;
+    margin-top: 40px;
+}
+section img {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 10px;
+    border: solid;
+}
+button {
+    background-color: rgb(49, 51, 196);
+    border-radius: 8px;
+    border: none;
+    color: white; /*color del texto del botón */
+    width: 100%;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    height: 42px; 
+    padding: 12px;
+}
+
+div {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+div div  #rechargeButton{
+    position:absolute;
+    justify-content: center;
+    place-items: center;
+    width: 100%;
+}
+
+#file {
+    margin: 10px;
+    display: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    padding: 20px;
+}
+
+div section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+}
+
+div section article{
+    margin: 5px;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 8em;
+    color:rgb(235, 65, 65)
+}
+p {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 3em;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+#preview {
+    width: 500px;
+    height: 500px;
+    
+    box-shadow: 0 40px 60px -6px black;
+}
+#uploadPhoto,
+.custom-file-upload {
+    width: 520px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #343fdb;
+    opacity: 0.6;
+    color: #fff;
+    transition: 0.5s;
+    margin: 0;
+}
+
+.custom-file-upload:hover,
+#uploadPhoto:hover {
+  opacity: 1;
+}
+
+#uploadPhoto i,
+.custom-file-upload i {
+  margin-left: 12px;
+}
+
+.custom-file-upload {
+  border-radius: 20px 20px 0 0;
+  background-color: #343fdb;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: xx-large;
+}
+
+#uploadPhoto {
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 30px;
+}
+
+#uploadingForm {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
