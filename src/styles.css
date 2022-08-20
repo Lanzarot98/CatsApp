@@ -143,4 +143,9 @@ article {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+}
+  
+#randomCatsError {
+    font-size: 3em;
+    color: red;
+}

@@ -152,8 +152,9 @@ const uploadCatPhoto = async () => {
     
     
     if(res.status !==201) {
-        randomCatsError.innerHTML = "There is an error: " + res.status + data.message; 
+        randomCatsError.innerHTML = "There is an error: you must select photos about cats";
     } else {
+        randomCatsError.innerHTML = "";
         console.log('Cat uploaded');
         console.log({data});
         console.log(data.url);
