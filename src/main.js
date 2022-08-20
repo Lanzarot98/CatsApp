@@ -1,7 +1,5 @@
 const api = axios.create({
     baseURL: 'https://api.thecatapi.com/v1/',
-    timeout: 1000,
-    headers: {'X-Custom-Header': 'foobar'}
 });
 api.defaults.headers.common['X-API-KEY'] = 'f9a90a1a-136d-4fa3-a79c-5f1e7f425d98'
 
